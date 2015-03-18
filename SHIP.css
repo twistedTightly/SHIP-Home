@@ -88,6 +88,7 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
     float: right;
   margin-right: -24px;
     padding: 12px;
+    padding-top: 36px;
     overflow: hidden;
   }
 } /* End 1140px media query */
@@ -324,4 +325,17 @@ body.homepage .newsletter-block .newsletter-form, body.homepage .newsletter-bloc
 }
 body.homepage .newsletter-block .newsletter-form-header {
   width: 100%;
+}
+/* Prevent ‘What We Do’, ‘Who We Are’, and ‘Why We’re Here headers from turning purple
+ * on hover
+ */
+body.homepage #page-body #content .main-content .sqs-block h2 > a:hover{
+  color: #E6A83D;
+}
+/* Hide overlay and page title only on the homepage */
+body.homepage.has-default-bg-image .banner-overlay, body.homepage.has-page-thumbnail .banner-overlay {
+  display: none;
+}
+body.homepage #page-title {
+  display: none;
 }
