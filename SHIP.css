@@ -294,7 +294,6 @@ a .sqs-svg-icon--social:hover {
 }
 .horizontal-navigation-bar input.search-input {
   padding: 5px 12px 5px 45px; /* Only top and bottom are adjusted from built-in stylesheets */
-  margin-left: .92em;
 }
 /* Make logo slightly bigger */
 body.banner-content-page-title-description.has-logo-image.homepage .horizontal-navigation-bar #banner, body.banner-content-empty.has-logo-image.homepage .horizontal-navigation-bar #banner {
