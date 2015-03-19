@@ -200,6 +200,8 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
   padding-right: 10px;
 }
 #sidebar-one-wrapper { background: #F8F8F8; }
+#sidebar-one #sidebar-one-blocks {
+  padding-top: 36px;
 }
 
 /*********************************
