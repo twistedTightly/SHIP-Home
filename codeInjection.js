@@ -3,5 +3,5 @@
 <script>
   console.log('remove search');
   var searchBox = $('#page-footer .search-block').detach();
-  searchBox.appendTo('.horizontal-navigation-bar #main-navigation ul');
+  searchBox.appendTo('.horizontal-navigation-bar');
 </script>

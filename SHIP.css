@@ -199,14 +199,7 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
   padding-left: 10px;
   padding-right: 10px;
 }
-#sidebar-one .sqs-search-ui-text-input {
-  padding-top: 20px;
-}
 #sidebar-one-wrapper { background: #F8F8F8; }
-#sidebar-one .sqs-search-ui-text-input {
-  padding-top: 0;
-  margin-top: 20px;
-  background-color: white;
 }
 
 /*********************************
