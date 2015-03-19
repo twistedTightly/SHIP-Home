@@ -12,9 +12,11 @@ label {
   padding-bottom: 10;
   height: 91px; /* height of logo */
   line-height: 91px;
+  text-align: left !important;
 }
 #main-navigation.main-nav ul {
-  float: right;
+  float: left;
+    padding: 0;
 }
 #main-navigation.main-nav ul li {
     display: inline-block;
@@ -39,6 +41,21 @@ label {
 {
   opacity: .8;
   color: #FFF  !important;
+}
+/* Style search bar in nav menu */
+.horizontal-navigation-bar .search-block {
+    display: table;
+  float: right;
+  width: 190px;
+  height: 91px;
+  padding: 0;
+}
+.horizontal-navigation-bar .search-block .sqs-block-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.horizontal-navigation-bar input.search-input {
+  padding: 5px 12px 5px 45px; /* Only top and bottom are adjusted from built-in stylesheets */
 }
 
 /*********************************
@@ -287,14 +304,6 @@ a .sqs-svg-icon--social:hover {
 /*********************************
  * Homepage specific styling
  *********************************/
-/* Style search bar in nav menu */
-.horizontal-navigation-bar .search-block {
-  display: inline-block;
-  width: 190px;
-}
-.horizontal-navigation-bar input.search-input {
-  padding: 5px 12px 5px 45px; /* Only top and bottom are adjusted from built-in stylesheets */
-}
 /* Make logo slightly bigger */
 body.banner-content-page-title-description.has-logo-image.homepage .horizontal-navigation-bar #banner, body.banner-content-empty.has-logo-image.homepage .horizontal-navigation-bar #banner {
   height: 100px;
