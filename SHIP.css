@@ -23,7 +23,7 @@ label {
     line-height: 91px;
 }
 /* Donate button background */
-#main-navigation ul li:nth-child(9n) a
+#main-navigation ul li:nth-child(8n) a
 {
   background-color: #431390 !important;
   color: #ffffff !important;
@@ -36,8 +36,8 @@ label {
   -o-transition: all .1s linear !important;
   transition: all .1s linear !important;
 }
-#main-navigation ul li:nth-child(9n) a:hover,
-#main-navigation ul li:nth-child(9n) a:focus
+#main-navigation ul li:nth-child(8n) a:hover,
+#main-navigation ul li:nth-child(8n) a:focus
 {
   opacity: .8;
   color: #FFF  !important;
@@ -46,7 +46,7 @@ label {
 .horizontal-navigation-bar .search-block {
     display: table;
   float: right;
-  width: 190px;
+  width: 210px;
   height: 91px;
   padding: 0;
 }
@@ -138,20 +138,6 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
   }
   #mobile-navigation ul {
     text-align: center;
-  }
-  /* Inject image on left side of the nav bar
-   *
-   * ---------------> NOTE: CHANGE URL WHEN SITE IS LIVE <-------------
-   *
-   */
-  #mobile-navigation-title::before {
-    display: inline-block;
-    content: "";
-    background: url('https://kevin-melchiorri-v66d.squarespace.com/s/SHIP_Logo_crop.png') no-repeat 0 0;
-    background-size: cover;
-    float: left;
-    height: 35px;
-    width: 47px;
   }
   .banner-content-page-title-description #mobile-navigation-title, .banner-content-empty #mobile-navigation-title {
     float: left;
