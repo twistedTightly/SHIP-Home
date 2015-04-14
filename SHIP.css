@@ -61,6 +61,13 @@ label {
 /*********************************
  * Banner Image and Content
  *********************************/
+/* Area beyond the banner area's max width will be white */
+#page-header-wrapper {
+  background-color: white;
+}
+body.stretch-page-thumbnail #banner-area {
+  position: relative;
+}
 /* Making the banner images on all pages
  * the same height, regardless of tag lines
  */
@@ -71,10 +78,24 @@ label {
   right: 370px;
 }
 .homepage #banner-area {
-  padding-top: 73.5px;
-  padding-bottom: 73.5px;
-  height: 225px;
-  display: table;
+  padding: 0 !important;
+}
+/* The next two rules force the homepage banner to
+ * be responsive and also not cut off the logo or text */
+.homepage #banner-area #page-thumb {
+  position: static;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: auto;
+}
+.homepage #banner-area #page-thumb img {
+  width: 100% !important;
+  height: auto !important;
+  top: auto  !important;
+  right: auto;
+  left: auto  !important;
+  bottom: auto;
 }
 /* On the homepage, because there is a page description, the vertical
  * centering can only be done as a table cell.
@@ -155,14 +176,6 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
 
 /* Mobile phone styles */
 @media only screen and (max-width: 640px) {
-  /* Specific pixel values to ensure the homepage banner
-   * is exactly the same height as all other pages' banners
-   */
-  .homepage #banner-area {
-    height: 132px;
-    padding-top: 43.5px;
-    padding-bottom: 43.5px;
-  }
   /* Aligning the logo image on mobile, 
    * in addition to padding rules below
    */
@@ -181,19 +194,6 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
     position: static;
   }
 } /* End 640px media query */
-
-/* When site title wraps to a new line,
- * the fixed height of the banner is too small.
- * In this specific case, the homepage banner
- * will be taller than on other pages.
- */
-@media only screen and (max-width: 511px) {
-  .homepage #banner-area {
-    height: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  }
-} /* End 511px media query */
 
 /*********************************
  * Sidebar styling
