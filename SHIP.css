@@ -71,11 +71,11 @@ label {
 }
 /* Style search bar in nav menu */
 .horizontal-navigation-bar .search-block {
-    display: table;
-  float: right;
-  width: 210px;
-  height: 91px;
-  padding: 0;
+  	display: table;
+	float: right;
+	width: 16%;
+	height: 91px;
+	padding: 0;
 }
 .horizontal-navigation-bar .search-block .sqs-block-content {
 	display: table-cell;
