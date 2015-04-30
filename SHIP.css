@@ -9,6 +9,28 @@ label {
   width: 65% !important;
 }
 /*********************************
+ * Blog Specific Styling
+ *********************************/
+.collection-type-blog .banner-overlay {
+  visibility: hidden;
+}
+/* Blog-only Side Bar */
+/* Undoing custom sidebar styles */
+.collection-type-blog #sidebar-one-wrapper .image-block, .collection-type-blog #sidebar-one-wrapper .twitter-block {
+  display: none;
+}
+.collection-type-blog #sidebar-one-wrapper .archive-block {
+  display: block;
+}
+.collection-type-blog #sidebar-one .sqs-block-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.collection-type-blog #sidebar-one-wrapper { background: none; }
+.collection-type-blog #sidebar-one #sidebar-one-blocks {
+  padding-top: 0px;
+}
+/*********************************
  * Navigation bar
  *********************************/
 .horizontal-navigation-bar nav ul li a { padding: 0 .92em; }
@@ -210,6 +232,9 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
 #sidebar-one-wrapper { background: #F8F8F8; }
 #sidebar-one #sidebar-one-blocks {
   padding-top: 36px;
+}
+#sidebar-one-wrapper .archive-block {
+  display: none;
 }
 
 /*********************************
