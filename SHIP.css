@@ -15,8 +15,8 @@ label {
   text-align: left !important;
 }
 #main-navigation.main-nav ul {
-  float: left;
-    padding: 0;
+	float: left;
+  	padding: 0;
 }
 #main-navigation.main-nav ul li {
     display: inline-block;
@@ -51,8 +51,8 @@ label {
   padding: 0;
 }
 .horizontal-navigation-bar .search-block .sqs-block-content {
-  display: table-cell;
-  vertical-align: middle;
+	display: table-cell;
+	vertical-align: middle;
 }
 .horizontal-navigation-bar input.search-input {
   padding: 5px 12px 5px 45px; /* Only top and bottom are adjusted from built-in stylesheets */
@@ -100,7 +100,7 @@ body.stretch-page-thumbnail #banner-area {
 /* On the homepage, because there is a page description, the vertical
  * centering can only be done as a table cell.
  * NOTE: If a new page is added that has a description, this rule
- *      may need to be applied to it as well.
+ * 			may need to be applied to it as well.
  */
 body.banner-content-page-title-description.homepage #page-title-wrapper {
   display: table-cell;
@@ -124,7 +124,7 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
    */
   .sidebar-position-right .one-sidebar #sidebar-one-wrapper {
     float: right;
-  margin-right: -24px;
+	margin-right: -24px;
     padding: 12px;
     padding-top: 36px;
     overflow: hidden;
@@ -137,7 +137,7 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
    * content in the desired height
    */
   #page-description {
-    display: none;  
+  	display: none;  
   }
   #banner-wrapper {
     position: absolute;
@@ -236,7 +236,7 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
     margin: auto;
 }
 #page-footer .back-to-top-link a {
-    color: #303030;
+  	color: #303030;
     display: block;
     font-family: "proxima-nova";
     font-size: 12px;
@@ -270,7 +270,7 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
     height: auto;
     width: auto;
     line-height: 1;
-    padding-bottom: 5px;
+  	padding-bottom: 5px;
 }
 .back-to-top-link:hover {
   color: #E6A83D;
@@ -278,10 +278,10 @@ body.banner-content-page-title-description.homepage #page-title-wrapper {
 }
 /* Social media icons */
 .socialaccountlinks-v2-block nav {
-  max-width: -moz-fit-content;
-  max-width: -webkit-fit-content;
-  max-width: fit-content;
-  margin: auto; 
+	max-width: -moz-fit-content;
+	max-width: -webkit-fit-content;
+	max-width: fit-content;
+	margin: auto; 
 }
 a .sqs-svg-icon--social:hover {
   opacity: .7;
@@ -299,7 +299,7 @@ body.banner-content-page-title-description.has-logo-image.homepage .horizontal-n
   line-height: 100px;
 }
 body.banner-content-page-title-description.has-logo-image.homepage #main-navigation.main-nav ul li {
-    line-height: 100px;
+  	line-height: 100px;
 }
 /* Hide newsletters from sidebar */
 body.banner-content-page-title-description.has-logo-image.homepage #sidebar-one #sidebar-one-blocks .row .col div.sqs-block:nth-child(1) {
