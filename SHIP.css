@@ -46,28 +46,8 @@ label {
   	padding: 0;
 }
 #main-navigation.main-nav ul li {
-    display: inline-block;
-    line-height: 91px;
-}
-/* Donate button background */
-#main-navigation ul li:nth-child(8n) a
-{
-  background-color: #431390 !important;
-  color: #ffffff !important;
-  padding: 10px !important;
-  -moz-border-radius: 5px !important;
-  -webkit-border-radius: 5px !important;
-  border-radius: 3px !important;
-  -moz-transition: all .1s linear !important;
-  -webkit-transition: all .1s linear !important;
-  -o-transition: all .1s linear !important;
-  transition: all .1s linear !important;
-}
-#main-navigation ul li:nth-child(8n) a:hover,
-#main-navigation ul li:nth-child(8n) a:focus
-{
-  opacity: .8;
-  color: #FFF  !important;
+  	display: inline-block;
+  	line-height: 91px;
 }
 /* Style search bar in nav menu */
 .horizontal-navigation-bar .search-block {
