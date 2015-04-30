@@ -3,6 +3,11 @@
 label {
   cursor: default;
 }
+/* Donation Form */
+.kimbiaDiv.nmftribute.general.two_col.columnsPerPage2 {
+  margin: auto;
+  width: 65% !important;
+}
 /*********************************
  * Navigation bar
  *********************************/
